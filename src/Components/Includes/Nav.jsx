@@ -68,29 +68,5 @@ const Image = styled.img`
   width: 100%;
   border-radius: 50px;
 `;
-const Button = styled.button`
-  padding: 15px 48px;
-  
-  
-  font-size: 19px;
-  font-weight: 600;
-  display: inline-block;
-  background: #1ae10c;
-  transition: background-color 0.5s ease 0s;
-  color: #fff;
-  cursor: pointer;
-  border:2px solid #07fb17;
-  border-radius: 5px;
-  // &:hover {
-  //   background-color: black;
-  }
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  background: #000;
-  &:hover {
-    background-color: #09f905;
-    color: #000;
-`;
+
 export default Nav;
